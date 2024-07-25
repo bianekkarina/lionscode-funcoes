@@ -13,3 +13,21 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+function reverseString(str){
+    var split = str.split("")
+    var reverse = split.reverse ()
+    var join = reverse.join("")
+    
+    return join
+}
+
+
+//teste
+
+
+palavra = "Hello"
+console.log(reverseString(palavra))
+
+
+//terminado - site usado: https://www.freecodecamp.org/portuguese/news/tres-maneiras-de-inverter-uma-string-em-javascript/

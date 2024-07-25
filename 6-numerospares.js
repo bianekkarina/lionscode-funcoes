@@ -13,3 +13,20 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+function getEvenNumbers (vetor){
+    var pares =[]
+    for (let i = 0; i <= vetor.length; i++ ) {
+        if (vetor[i] % 2 == 0){
+            pares.push(vetor[i])
+        }
+    }
+return pares
+}
+
+
+//teste
+teste = [1,4,5,6,7,8,10]
+console.log(getEvenNumbers(teste))
+
+//feito
