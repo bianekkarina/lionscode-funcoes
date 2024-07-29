@@ -10,8 +10,24 @@ se o caracter faz parte da string) cada caractere da string e um contador
 para contar quantas vezes uma vogal aparece.
 
 Programa desenvolvido por:
- - Aluno 1
- - Aluno 2
- - Aluno 3
- - Aluno 4
+ - Alexandre
+ - José
+ - Kailane
+ - Karina
 */
+
+function countVowels(letras) {
+    var vowels = "aeiouAEIOUáÁàÀãÃêÊéÉíÍõÕ"
+    let contador = 0
+
+    for (let i = 0; i < letras.length; i++){
+        if (vowels.includes(letras[i])) {
+            contador++
+        }
+    }
+    return contador
+}
+
+// exemplos de uso
+console.log(countVowels("Ola mundo!"))
+console.log(countVowels("Esse trabalho é muito dificil"))
