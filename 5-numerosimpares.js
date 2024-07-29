@@ -13,3 +13,13 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+function getOddNumbers(vetor) {
+    let vetorImpares = []
+    for (let i = 0; i < vetor.length; i++){
+        if (vetor[i] % 2 != 0)
+        vetorImpares.push(vetor[i])
+    }
+    return vetorImpares
+}
+console.log(getOddNumbers([1, 2, 3, 4, 5]))

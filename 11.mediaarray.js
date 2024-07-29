@@ -12,3 +12,13 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+
+function averageArray(num){
+    for (let i = 0; i < num.length; i++){
+        media = num.reduce((soma, numero) => soma + numero, 0)
+    }
+    return media / num.length
+}
+let num = [1, 2, 3, 4, 5]
+console.log(`A média é: ${averageArray(num)}`)
