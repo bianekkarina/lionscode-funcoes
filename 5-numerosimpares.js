@@ -8,10 +8,10 @@ Um número é ímpar se o resto da divisão desse número por 2 é diferente de 
 array contendo apenas os números que atendem a essa condição.
 
 Programa desenvolvido por:
- - Aluno 1
- - Aluno 2
- - Aluno 3
- - Aluno 4
+ - Alexandre
+ - José
+ - Kailane
+ - Karina
 */
 
 function getOddNumbers(vetor) {
